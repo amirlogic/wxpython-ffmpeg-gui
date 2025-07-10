@@ -14,7 +14,7 @@ on:
       pip-install:
         description: 'Modules to install'
         required: true
-        default: "wxpython"
+        default: "wxPython==4.2.1"
         type: string
 
 jobs:
